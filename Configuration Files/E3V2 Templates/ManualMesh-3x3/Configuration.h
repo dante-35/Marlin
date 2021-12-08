@@ -2803,7 +2803,13 @@
 // Ender-3 v2 OEM display with enhancements by Jacob Myers
 //
 #define DWIN_CREALITY_LCD_JYERSUI
-
+#if ENABLED(DWIN_CREALITY_LCD_JYERSUI)
+   //
+  // Enable gcode preview images
+  // Requires using a post-processing script with Cura or PrusaSlicer
+  //
+  #define DWIN_CREALITY_LCD_JYERSUI_GCODE_PREVIEW
+#endif
 //
 // MarlinUI for Creality's DWIN display (and others)
 //
