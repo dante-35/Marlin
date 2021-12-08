@@ -1,4 +1,30 @@
+
+Jyers thank you for your great Ender3V2 marin firmware.
+And alexqzd thank you for your brilliant gcode preview feature addon.
+
+
+# Ender 3 V2 JyersUI
+
+This fork was created with the intention of merging  [JyersUi](https://github.com/Jyers/Marlin) with [alexqzd's Gcode Preview](https://github.com/alexqzd/Marlin) and making my own frimware updates easier.
+
+## General Info
+
+  I am not an experienced marlin user nor an experienced C++ programmer.
+ So if you want to compile firmware Check out the [Jyers wiki tab on GitHub](https://github.com/Jyers/Marlin/wiki) for all the information you need. Use my repo as referance only.
+
+ Don't try my configuration files in "Dante's Config" folder use Jyers "E3V2 Templates".
+ My Ender3-V2 Has a servo probe and 4.2.2 Rev B board. Ive made cahanges for Tmc2209 vs.
+
+## Releases
+
+I dont intend to make releases. If you want precompiled files, Check [releases section of GitHub](https://github.com/Jyers/Marlin/releases).
+
+## Questions
+
+As i said earlier i am not an experienced programmer, goto [discussions tab](https://github.com/Jyers/Marlin/discussions) for all questions regarding the firmware. If you have a question, use the search feature to check if it has been asked before. If not, feel free to open up a discussion of your own. Just try to be clear on what exactly you want to know and provide a "steps to reproduce" if you are asking about a specific problem.
+
 # Marlin 3D Printer Firmware
+
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
